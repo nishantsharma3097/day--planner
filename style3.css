@@ -1,0 +1,37 @@
+body{
+background-color: bisque;
+font-family: roboto;
+}
+
+h1{
+    color:black;
+    font-size: 64px;
+    letter-spacing: 2px;
+    margin-top: 80px;
+    text-align: center;
+    font-family: castellar;
+  }
+
+
+a{
+    color:black;
+    font-size: 24px;
+    letter-spacing: 2px;
+    margin-top: 80px;
+    text-align: center;
+
+}
+
+.flex-container{
+ display: flex;
+ 
+}
+
+.flex-child{
+flex:1;
+border: 5px solid black;
+}
+
+.flex-child:first-child{
+    margin-right:20px;
+}
