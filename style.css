@@ -126,7 +126,7 @@ button{
  border-bottom:1px solid black;
  }
 
- @media screen and (max-width:786px){
+ @media screen and (max-width:1024px){
     li{
         padding: 15px;
         background: #f6f6f6;
