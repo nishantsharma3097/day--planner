@@ -126,4 +126,22 @@ button{
  border-bottom:1px solid black;
  }
 
+ @media screen and (max-width:1024px){
+    li{
+        padding: 15px;
+        background: #f6f6f6;
+        font-size: 24px;
+        color:black;
+        position: relative;
+        border-radius: 15px 15px 15px 15px;
+        border-bottom: 1px solid inherit;
+        height: 46px;
+        align-content: center;
+        height: 2.2vh;
+        overflow-wrap:break-word ;
+        
+    }
+    
+    
+}
  

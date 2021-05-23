@@ -29,7 +29,7 @@ font-family: montserrat;
    ul{
        list-style-type: none;
        padding: 0;
-       background-color:inherit;
+       background-color:transparent;
        max-width: 960px;
        margin: 30px auto;
        border-radius: 0px 0px 0px 0px;
@@ -40,14 +40,17 @@ font-family: montserrat;
    }
    
    li{
-       padding: 20px;
-       background: #f6f6f6;
-       font-size: 20px;
-       color:black;
-       position: relative;
-       border-bottom: 1px solid #e6e6e6;
-       height: 46px;
-       overflow-wrap:break-word ;
+    padding: 15px;
+    background: #f6f6f6;
+    font-size: 24px;
+    color:black;
+    position: relative;
+    border-radius: 15px 15px 15px 15px;
+    border-bottom: 1px solid inherit;
+    height: 46px;
+    align-content: center;
+    height: 2vw;
+    overflow-wrap:break-word ;
    }
    li:nth-child(even){
        padding: 20px;
@@ -74,6 +77,7 @@ font-family: montserrat;
        padding: 10px 0;
        font-weight:  bold;
        cursor:  pointer;
+       border-radius: 15px;
    }
    
    form input{
@@ -119,3 +123,22 @@ font-family: montserrat;
     background:transparent;
     border-bottom:1px solid black;
    }
+
+   @media screen and (max-width:1024px){
+    li{
+        padding: 15px;
+        background: #f6f6f6;
+        font-size: 24px;
+        color:black;
+        position: relative;
+        border-radius: 15px 15px 15px 15px;
+        border-bottom: 1px solid inherit;
+        height: 46px;
+        align-content: center;
+        height: 4vh;
+        overflow-wrap:break-word ;
+        
+    }
+    
+    
+}
