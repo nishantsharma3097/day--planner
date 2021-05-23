@@ -134,7 +134,7 @@ align-items: center;
     .title1{
         position: absolute;
         top: 27%;
-        left: 15%;
+        left: 25%;
         color: white;
         text-shadow: 0 0 5px white;
         font-family: montserrat;
@@ -145,7 +145,7 @@ align-items: center;
 @media screen and (max-width:786px){
     .title2{
         position: absolute;
-        top: 27%;
+        top: 17%;
         right: 13%;
         color: white;
         text-shadow: 0 0 5px white;
