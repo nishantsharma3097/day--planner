@@ -144,4 +144,9 @@ button{
     
     
 }
+
+::placeholder{
+    color:black;
+    opacity: 5;
+}
  

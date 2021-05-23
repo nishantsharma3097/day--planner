@@ -142,3 +142,8 @@ font-family: montserrat;
     
     
 }
+
+::placeholder{
+    color: black;
+    opacity: 5;
+}
