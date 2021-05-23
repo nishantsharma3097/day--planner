@@ -1,25 +1,27 @@
 body{
-    background-color:#77a6f7;
-    font-family: garamond;
+    background-image: url("Can\ You\ Feel\ The\ Love\ Tonight.jpg");
+background-color:#77a6f7;
+font-family: montserrat;
     }
    
    h1{
-       color:black;
+       color:white;
        font-size: 64px;
        letter-spacing: 2px;
        margin-top: 80px;
        text-align: center;
-       font-family: garamond;
+       font-family: montserrat;
+       font-weight: bold;
+       text-shadow: 0 0 5px white;
    }
    
    
    .content{
-       background: #fff;
+       background:transparent;
        max-width: 960px;
        margin: 30px auto;
-       padding:  20px 30px;
+       padding:  0;
        border-radius: 0px 0px 0px 0px;
-       box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
        position: center;
    }
    
@@ -27,13 +29,14 @@ body{
    ul{
        list-style-type: none;
        padding: 0;
-       background-color:#123c69;
+       background-color:inherit;
        max-width: 960px;
        margin: 30px auto;
        border-radius: 0px 0px 0px 0px;
        box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
        position: center;
-       font-family: Verdana,Tahoma, sans-serif;
+       font-family: montserrat;
+       
    }
    
    li{
@@ -44,6 +47,7 @@ body{
        position: relative;
        border-bottom: 1px solid #e6e6e6;
        height: 46px;
+       overflow-wrap:break-word ;
    }
    li:nth-child(even){
        padding: 20px;
@@ -99,14 +103,19 @@ body{
    }
    
    button{
-       border: 5px solid black;
-       background: #fff;
-       border-radius: 10px;
-       padding: 13px;
-       width: 14%;
-       box-shadow: -1px 0px 1px rgba(0,0,0,0.1);
-       font-weight: bold;
-       font-family: ubuntu;
-       letter-spacing: 1px;
-       color:black;
+    cursor:pointer;
+    background:transparent;
+    border: 0;
+    padding: 0;
+    width: 0;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+    color:inherit;
+}
+
+   .test{
+    background:transparent;
+    border-bottom:1px solid black;
    }

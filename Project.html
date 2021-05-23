@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="">
 <head>
     <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-firestore.js"></script>
     <link rel="stylesheet" href="style.css"> 
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
 </head>
 <body>
 
@@ -13,12 +14,12 @@
     <div class="content">
 
         <form id="add-list-form">
-            <input type="text" name="task" placeholder="Task">
-            <button>+ Add Task</button>
+            <input type="text" class="test" name="task" placeholder="Add New Task" required>
+            <button>+</button>
         </form> <br>
-      </div>
-        <ul id="todo-list"></ul>
-
+      
+        <ul id="todo-list"></ul> 
+    </div>
     
 
 
