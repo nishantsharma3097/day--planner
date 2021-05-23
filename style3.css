@@ -133,8 +133,8 @@ align-items: center;
 @media screen and (max-width:1024px){
     .title1{
         position: absolute;
-        top: 52%;
-        left: 10%;
+        top: 27%;
+        left: 15%;
         color: white;
         text-shadow: 0 0 5px white;
         font-family: montserrat;
@@ -145,8 +145,8 @@ align-items: center;
 @media screen and (max-width:786px){
     .title2{
         position: absolute;
-        top: 52%;
-        right: 10%;
+        top: 27%;
+        right: 13%;
         color: white;
         text-shadow: 0 0 5px white;
         font-family: montserrat;
@@ -170,7 +170,7 @@ align-items: center;
         transition: transform 0.5s;
         align-content: center;
         position: absolute;
-        top:27%
+        top:25%
        
     }
     
