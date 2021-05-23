@@ -74,7 +74,7 @@ font-family: montserrat;
        background: rgba(255,255,255,0.6);
        width: 40px;
        text-align: center;
-       padding: 10px 0;
+       padding: 10px 0px;
        font-weight:  bold;
        cursor:  pointer;
        border-radius: 15px;
@@ -124,7 +124,7 @@ font-family: montserrat;
     border-bottom:1px solid black;
    }
 
-   @media screen and (max-width:1024px){
+   @media screen and (max-width:786px){
     li{
         padding: 15px;
         background: #f6f6f6;

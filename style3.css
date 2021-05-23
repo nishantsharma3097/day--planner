@@ -142,7 +142,7 @@ align-items: center;
     
     
 }
-@media screen and (max-width:1024px){
+@media screen and (max-width:786px){
     .title2{
         position: absolute;
         top: 52%;
@@ -154,7 +154,7 @@ align-items: center;
     
     
 }
-@media screen and (max-width:1024px){
+@media screen and (max-width:786px){
     .icon2{
         width: 230px;
         height: 230px;
