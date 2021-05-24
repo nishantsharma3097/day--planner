@@ -1,0 +1,234 @@
+body{
+    background-image: url("Can\ You\ Feel\ The\ Love\ Tonight.jpg");
+background-color:#77a6f7;
+font-family: montserrat;
+}
+
+h1{
+    color:white;
+    font-size: 64px;
+    letter-spacing: 2px;
+    margin-top: 80px;
+    text-align: center;
+    font-family:montserrat;
+    font-weight: bold;
+    text-shadow: 0 0 5px white;
+    letter-spacing: 5px;
+    
+  }
+
+
+a{
+    color:white;
+    font-size: 24px;
+    letter-spacing: 2px;
+    margin-top: 80px;
+    text-align: center;
+    text-decoration: none;
+   }
+
+.flex-container1{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    background-color:transparent;
+    padding:20px;
+    float:left;
+    text-align: center;
+    text-decoration: none;
+    width: 40vw;
+    margin-right: 30px;
+    
+}
+.flex-container2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: transparent;
+    padding:20px;
+    float:right;
+    text-align: center;
+    text-decoration: none;
+    width: 40vw;
+}
+
+.flex-child{
+flex:1;
+font-family: garamond;
+align-items: center;
+}
+
+.flex-child:first-child{
+    margin-right:50px;
+}
+.cen{
+     display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    height: 50vh;
+}
+
+.icon1{
+    width: 225px;
+    height: 225px;
+    display: inline-block;
+    border-radius: 10px;
+    padding:15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin:10px 15px;
+    background-image:url("img3.png");
+    background-size: cover;
+    transition: transform 0.5s;
+    align-content: center;
+   
+}
+.icon2{
+    width: 230px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding:15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin:10px 15px;
+    background-image:url("img1.png");
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+    align-content: center;
+   
+}
+.icon1:hover{
+    transform: translateY(-10px);
+   
+}
+.icon2:hover{
+    transform: translateY(-10px);
+    
+    
+}
+
+.title1{
+    position: absolute;
+    top: 48%;
+    left: 32%;
+    color: white;
+    text-shadow: 0 0 5px white;
+    font-family: montserrat;
+}
+
+.title2{
+    position: absolute;
+    top: 48%;
+    right: 32%;
+    color: white;
+    text-shadow: 0 0 5px white;
+    font-family: montserrat;
+   
+}
+
+
+@media screen and (max-width:1024px){
+    .title1{
+        position: absolute;
+        top: 27%;
+        left: 25%;
+        color: white;
+        text-shadow: 0 0 5px white;
+        font-family: montserrat;
+        display: none;
+        
+    }
+    
+    
+}
+@media screen and (max-width:1024px){
+    .title2{
+        position: absolute;
+        top: 27%;
+        right: 24%;
+        color: white;
+        text-shadow: 0 0 5px white;
+        font-family: montserrat;
+        display: none;
+    }
+    
+    
+}
+@media screen and (max-width:786px){
+    .icon2{
+        width: 230px;
+        height: 230px;
+        display: inline-block;
+        border-radius: 10px;
+        padding:15px 25px;
+        box-sizing: border-box;
+        cursor: pointer;
+        margin:10px 15px;
+        background-image:url("img1.png");
+        background-position: center;
+        background-size: cover;
+        transition: transform 0.5s;
+        align-content: center;
+        position: absolute;
+        top:25%
+       
+    }
+    
+    
+}
+
+@media screen and (max-width:1366px){
+    .title1{
+        position: absolute;
+        top: 71.8%;
+        left: 28%;
+        color: white;
+        text-shadow: 0 0 5px white;
+        font-family: montserrat;
+        
+    }
+    
+    
+}
+@media screen and (max-width:1366px){
+    .title2{
+        position: absolute;
+        top: 72%;
+        right: 28%;
+        color: white;
+        text-shadow: 0 0 5px white;
+        font-family: montserrat;
+    }
+}
+
+@media screen and (max-height:786px){
+    .title1{
+        position: absolute;
+        top: 60%;
+        left: 29.5%;
+        color: white;
+        text-shadow: 0 0 5px white;
+        font-family: montserrat;
+        
+        
+    }
+    
+    
+}
+@media screen and (max-height:786px){
+    .title2{
+        position: absolute;
+        top: 60%;
+        right: 30%;
+        color: white;
+        text-shadow: 0 0 5px white;
+        font-family: montserrat;
+        
+        
+    }
+    
+    
+}
