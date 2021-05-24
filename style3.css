@@ -130,7 +130,7 @@ align-items: center;
 }
 
 
-@media screen and (max-width:1024px){
+@media screen and (max-width:786px){
     .title1{
         position: absolute;
         top: 27%;
@@ -138,11 +138,13 @@ align-items: center;
         color: white;
         text-shadow: 0 0 5px white;
         font-family: montserrat;
+        display: none;
+        
     }
     
     
 }
-@media screen and (max-width:1024px){
+@media screen and (max-width:786px){
     .title2{
         position: absolute;
         top: 27%;
@@ -150,6 +152,7 @@ align-items: center;
         color: white;
         text-shadow: 0 0 5px white;
         font-family: montserrat;
+        display: none;
     }
     
     
