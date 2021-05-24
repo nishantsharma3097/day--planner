@@ -130,10 +130,10 @@ align-items: center;
 }
 
 
-@media screen and (max-width:768px){
+@media screen and (max-width:1024px){
     .title1{
         position: absolute;
-        top: 70%;
+        top: 27%;
         left: 25%;
         color: white;
         text-shadow: 0 0 5px white;
@@ -142,10 +142,10 @@ align-items: center;
     
     
 }
-@media screen and (max-width:768px){
+@media screen and (max-width:1024px){
     .title2{
         position: absolute;
-        top: 50%;
+        top: 27%;
         right: 24%;
         color: white;
         text-shadow: 0 0 5px white;
