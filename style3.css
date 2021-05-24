@@ -176,3 +176,27 @@ align-items: center;
     
     
 }
+
+@media screen and (max-width:1366px){
+    .title1{
+        position: absolute;
+        top: 65%;
+        left: 28%;
+        color: white;
+        text-shadow: 0 0 5px white;
+        font-family: montserrat;
+        
+    }
+    
+    
+}
+@media screen and (max-width:1366px){
+    .title2{
+        position: absolute;
+        top: 65%;
+        right: 28%;
+        color: white;
+        text-shadow: 0 0 5px white;
+        font-family: montserrat;
+    }
+}
